@@ -23,7 +23,7 @@ int main(int argc, char **argv) {
     float sol2;
     int n;
 
-    solutions(2, -2, -3, *n, &sol1, &sol2);
+    solutions(2, -2, -3, &n, &sol1, &sol2);
 
     printf("n: %d, x1: %f, x2: %f\n", n, sol1, sol2);
 
