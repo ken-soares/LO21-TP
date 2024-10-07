@@ -6,8 +6,8 @@ void solutions(float a, float b, float c, int *n, float *x1, float *x2) {
 
     if (delta > 0) {
         *n = 2;
-        *x1 = ((-b) - sqrt(delta))/2*a;
-        *x2 = ((-b) + sqrt(delta))/2*a;
+        *x1 = (-b - sqrt(delta))/(2*a);
+        *x2 = (-b + sqrt(delta))/(2*a);
     } else if (delta == 0) {
         *n = 1;
         *x1 = (-b)/2*a;
