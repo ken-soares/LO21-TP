@@ -19,8 +19,8 @@ void solutions(float a, float b, float c, int *n, float *x1, float *x2) {
 int main(int argc, char **argv) {
     // exemple avec 2x^2 - 2x - 3
     
-    int sol1;
-    int sol2;
+    float sol1;
+    float sol2;
     int n;
 
     solutions(2, -2, -3, *n, &sol1, &sol2);
